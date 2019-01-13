@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "backend-persistence": "https://github.com/Household-Management/backend-persistence.git",
+    "backend-usercreation": "https://github.com/Household-Management/backend-usercreation.git",
+    "react-client": "https://github.com/Household-Management/react-client.git"
+  }
+}
