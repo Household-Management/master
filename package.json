@@ -1,0 +1,24 @@
+{
+  "name": "master",
+  "version": "1.0.0",
+  "description": "This is the master repository.",
+  "dependencies": {
+    "serverless-dynamodb-local": "^0.2.36"
+  },
+  "devDependencies": {
+    "serverless-offline": "^4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Household-Management/master.git"
+  },
+  "author": "ThisIsNoZaku",
+  "scripts": {
+    "backend:start": "serverless offline"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Household-Management/master/issues"
+  },
+  "homepage": "https://github.com/Household-Management/master#readme"
+}

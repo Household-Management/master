@@ -1,0 +1,20 @@
+service: backend
+provider:
+    name: aws
+    runtime: nodejs8.10
+    
+
+plugins:
+    - serverless-offline
+    - serverless-dynamodb-local
+
+custom:
+    serverless-offline:
+        port: 8081
+
+functions:
+    persist:
+        handler: backend-persistence/handler.saveData
+        runtime: nodejs
+        events:
+            - http: post /users/data/
